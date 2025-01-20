@@ -1,3 +1,173 @@
-h1{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+
+/* navbar style  */
+header {
+    background: rgb(247, 247, 247);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h3 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+ul a {
+    text-decoration: none;
+
+}
+
+.li1 {
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.li2 {
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.li3 {
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.li4 {
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.btn {
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 10px 30px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* main section  */
+main {
+    background: rgb(247, 247, 247);
+}
+
+/* < !-- section Empowering --> */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.banner-title,
+.img {
+    margin-top: 30px;
+}
+
+.bt1 {
+    font-family: Quicksand;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.bt2 {
+    color: rgb(254, 163, 1);
+}
+
+.bt3 {
+    color: rgb(17, 17, 17);
+}
+
+.bt4 {
+    color: rgb(1, 172, 253);
+}
+
+.bp1 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(17, 17, 17);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.b-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: left;
+   
+}
+.b-btn {
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    border: none;
+    padding: 10px 20px;
 }
