@@ -26,6 +26,12 @@ header {
     margin: 0 auto;
 }
 
+/* Not big device  */
+.menu {
+    display: none;
+}
+
+/* Not big device  */
 .logo {
     display: flex;
     align-items: center;
@@ -124,6 +130,11 @@ main {
 .banner-title,
 .img {
     margin-top: 30px;
+
+}
+
+.img {
+    width: auto;
 }
 
 .bt1 {
@@ -163,11 +174,58 @@ main {
     font-size: 1.25rem;
     font-weight: 700;
     text-align: left;
-   
+
 }
+
 .b-btn {
     border-radius: 12px;
     background: rgb(17, 17, 17);
     border: none;
     padding: 10px 20px;
+}
+
+
+
+/* Responsive web  */
+@media screen and (max-width:576px) {
+
+    /* header section  */
+    .navbar {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #FEA301;
+        padding: 20px;
+    }
+
+    .menu2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* < !-- section Empowering --> */
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .bt1 {
+        font-size: 1.70rem;
+        text-align: center;
+    }
+    .bp1 {
+        font-size: .50rem;
+        text-align: center;
+    }
+    .img {
+        width: 95%;
+    }
+
+
+
 }
