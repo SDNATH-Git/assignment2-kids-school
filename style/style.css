@@ -636,6 +636,19 @@ main {
         background: url(), rgb(217, 217, 217);
     }
 
+    .stories-btn2,
+    .stories-btn3,
+    .stories-btn4,
+    .stories-btn5 {
+        font-size: .60rem;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .grid-title1 {
+        font-size: .70rem;
+    }
+
     /* footer  */
     .footer-kinds {
         flex-direction: column;
