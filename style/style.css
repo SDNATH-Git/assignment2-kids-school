@@ -538,6 +538,30 @@ main {
     gap: 5px;
 }
 
+/* < !-- section marquee --> */
+.marq-section {
+    text-align: center;
+}
+
+.marq {
+    background-color: rgb(244, 235, 235);
+    padding: 0px 0px 10px 0px;
+}
+
+.geek1 {
+    font-size: 1.80rem;
+    font-weight: 700px;
+    font-family: Quicksand;
+    color: rgb(1, 172, 253);
+}
+
+.geek2 {
+    font-size: 1rem;
+    font-weight: 400px;
+    font-family: Quicksand;
+    color: black;
+}
+
 
 
 
@@ -573,12 +597,12 @@ main {
     }
 
     .bt1 {
-        font-size: 2rem;
+        font-size: 1.80rem;
         text-align: center;
     }
 
     .bp1 {
-        font-size: .70rem;
+        font-size: .60rem;
         text-align: center;
     }
 
@@ -640,13 +664,13 @@ main {
     .stories-btn3,
     .stories-btn4,
     .stories-btn5 {
-        font-size: .60rem;
+        font-size: .50rem;
         position: relative;
         bottom: 50px;
     }
 
     .grid-title1 {
-        font-size: .70rem;
+        font-size: .65rem;
     }
 
     /* footer  */
@@ -655,7 +679,114 @@ main {
         margin-left: 20px;
     }
 
+}
+
+/* Responsive tablet device  */
+@media screen and (min-width:576px) and (max-width:992px) {
 
 
+    /* header section  */
+    .navbar {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #FEA301;
+        padding: 20px;
+    }
+
+    .menu2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* < !-- section Empowering --> */
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .bt1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .bp1 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .img {
+        width: 95%;
+    }
+
+    /* section Standard Curriculum */
+    .curriculum1 {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .standard {
+        flex-direction: column;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .st1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    /* < !-- section Our Stories -->  */
+    .our-title {
+        font-size: 4rem;
+    }
+
+    .stories-box {
+        flex-direction: column;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .stories-box {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .stories-grid1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .stories-img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px 16px 0px 0px;
+        background: url(), rgb(217, 217, 217);
+    }
+
+    .stories-btn2,
+    .stories-btn3,
+    .stories-btn4,
+    .stories-btn5 {
+        font-size: .50rem;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .grid-title1 {
+        font-size: .65rem;
+    }
+
+    /* footer  */
+    .footer-kinds {
+        flex-direction: column;
+        margin-left: 20px;
+    }
 
 }
